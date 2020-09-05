@@ -1,0 +1,24 @@
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* margin-left: 660px; */
+    height: 100vh;
+    /* border-radius: 20px;
+    border-style: solid;
+    border-color: darkblue; */
+}
+.name{
+    padding-bottom: 20px;
+}
+.pass{
+    padding-bottom: 20px;
+}
+.form{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: darkblue;
+}
