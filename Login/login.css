@@ -1,0 +1,21 @@
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.name,.pass{
+    padding-bottom: 20px;
+    display: flex;
+}
+#username,#password{
+    flex-grow:1;
+    margin-left:10px;
+}
+form{
+    border:1px solid darkblue;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 5px 10px darkgray;
+    width: 500px;
+}

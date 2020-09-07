@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+</head>
+
+<body>
+    <div id = "container">
+        <form class = "forms" action="">
+            <div class = "name">
+                <label for="">Username:</label>
+                <input id = "username" type="text" placeholder="Enter username">
+            </div>
+            <div class="pass">
+                <label for="">Password:  </label>
+                <input id = "password" type="password" placeholder="Enter Password">
+            </div>
+            <button id="getUsers" type="button" value="log in">Log in</button>
+        </form>
+    </div>
+</body>
+<script src="login.js"></script>
+</html>
