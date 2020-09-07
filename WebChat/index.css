@@ -1,0 +1,28 @@
+#headChat{
+    background-color: cornflowerblue;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+#headChat header #chat{
+    margin-left: 30px;
+}
+#bodyChat{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    overflow: scroll;
+}
+#footerChat{
+    background-color: white;
+    color: darkgray;
+    height: 70px;
+    border: 10px solid;
+    display: flex;
+}
+#footerChat footer #text{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
