@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.front img{
+    width: 280px;
+    height: 260px;
+}
+/* .middle{
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+} */
