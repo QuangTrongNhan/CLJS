@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #34495e;  ;
+}
+.name-title{
+    margin: 30px;
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 30px;
+    color: lime;
+    position: relative;
+}
+
+.box-input{
+   display: flex;
+   justify-content: center;
+    position: relative;
+}
+
+
+.box-input input{
+    font-size: 24px;
+    width: 550px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 2%;
+    border-radius: 25px;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-loginbox{
+    margin: 15px 5px;    
+}
+.nav-loginbox-btn{
+    width: 62px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.nav-registerbox{
+    margin: 15px 15px;    
+}
+
+.nav-registerbox-btn{
+    width: 62px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.item{
+    padding: 5px;
+    margin-bottom: 15px;
+    border-bottom: 4px solid #fff;
+}
+
+.item-input{
+    background: none;
+    border: none;
+    width: 340px;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+}
+
+.removeButton{
+    margin: 0 7.5px;
+    font-family: 'Hind Siliguri', sans-serif;
+    border: none;
+    background: none;
+    color: lime;
+    font-size: 15px;
+}
+
+.removeButton:hover{
+    opacity: 0.7;
+    cursor: pointer;
+} 
+.nav-loginbox input[type = "button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.nav-loginbox input[type = "button"]:hover{
+    background: #2ecc71;
+}
+    
