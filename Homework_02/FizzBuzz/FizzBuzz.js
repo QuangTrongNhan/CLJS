@@ -1,6 +1,6 @@
 
 document.getElementById("btn").addEventListener("click", () => {
-    n = document.getElementById("num").value
+   let n = document.getElementById("num").value
     let arr = []
     for (let i = 1; i <= n; i++) {
         arr.push(i)
